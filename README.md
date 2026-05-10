@@ -4,7 +4,7 @@
 
 **Course:** CISC 6745 
 
-This project applies supervised machine learning to predict 30-day hospital readmission outcomes in diabetic patients across three classes: no readmission (Class 0), readmission after 30 days (Class 1), and early readmission within 30 days (Class 2). Three classifiers were trained and evaluated - Logistic Regression with LASSO feature selection, Random Forest, and Support Vector Machine - with particular focus on Class 2 recall as the most clinically urgent and underrepresented outcome. Principal Component Analysis was applied as a diagnostic tool to interpret the models' shared performance ceiling.
+My project applies supervised machine learning to predict 30-day hospital readmission outcomes in diabetic patients across three classes: no readmission (Class 0), readmission after 30 days (Class 1), and early readmission within 30 days (Class 2). Prior to fitting, I used LASSO feature selection to create several model configurations. Three classifiers were trained and evaluated: Logistic Regression, Random Forest, and Support Vector Machines - with particular focus on Class 2 recall as the most clinically urgent and underrepresented outcome. Lastly, I applied Principal Component Analysis as a diagnostic tool to interpret the models' shared performance ceiling.
 
 **Dataset:** Strack et al. (2014) Health Facts Dataset - 101,766 inpatient diabetic encounters across 130 U.S. hospitals (1999-2008), available through the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008).
 
